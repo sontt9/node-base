@@ -1,0 +1,23 @@
+{
+  "name": "node-base",
+  "version": "1.0.0",
+  "description": "Nodejs API application skeleton",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_PATH=. DEBUG=* nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sontt9/node-base.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sontt9/node-base/issues"
+  },
+  "homepage": "https://github.com/sontt9/node-base#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
