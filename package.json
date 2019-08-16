@@ -4,7 +4,10 @@
   "description": "Nodejs API application skeleton",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_PATH=. DEBUG=* nodemon ./index.js"
+    "dev": "NODE_PATH=. DEBUG=* nodemon ./index.js",
+    "eslint": "eslint .",
+    "eslint:check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check",
+    "eslint:fix": "prettier --write \"{,!(node_modules)/**/}*.js\" && eslint --fix ."
   },
   "repository": {
     "type": "git",
@@ -18,10 +21,14 @@
   },
   "homepage": "https://github.com/sontt9/node-base#readme",
   "_moduleAliases": {
-    "app"      : "app"
+    "app": "app"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1"
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "nodemon": "^1.19.1",
+    "prettier": "^1.18.2"
   },
   "dependencies": {
     "dotenv": "^8.0.0",
