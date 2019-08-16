@@ -19,5 +19,8 @@
   "homepage": "https://github.com/sontt9/node-base#readme",
   "devDependencies": {
     "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0"
   }
 }
