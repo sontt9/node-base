@@ -17,10 +17,14 @@
     "url": "https://github.com/sontt9/node-base/issues"
   },
   "homepage": "https://github.com/sontt9/node-base#readme",
+  "_moduleAliases": {
+    "app"      : "app"
+  },
   "devDependencies": {
     "nodemon": "^1.19.1"
   },
   "dependencies": {
-    "dotenv": "^8.0.0"
+    "dotenv": "^8.0.0",
+    "module-alias": "^2.2.1"
   }
 }
